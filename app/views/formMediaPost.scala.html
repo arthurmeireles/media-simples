@@ -1,0 +1,12 @@
+@()
+
+@main("Media") {
+  <form method="POST" action="/formMedia">
+    <h1>Informe o nome do aluno:</h1>
+    <input type="text" name="nome">
+    <h1>Informe as 2 notas do aluno:</h1>
+    <p>Nota do 1º Bimestre: <input type="text" name="a"></p>
+    <p>Nota do 2º Bimestre: <input type="text" name="b"></p>
+    <button type="submit">Enviar</button>
+  </form>
+}
